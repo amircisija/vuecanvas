@@ -1,19 +1,16 @@
 <template>
   <div id="app">
     <AppNavigation/>
-    <FormSection/>
     <router-view></router-view>
   </div>
 </template>
 
 <script>
 import AppNavigation from "./components/AppNavigation.vue";
-import FormSection from "./components/FormSection.vue";
 export default {
   name: "App",
   components: {
-    AppNavigation,
-    FormSection
+    AppNavigation
   }
 };
 </script>
