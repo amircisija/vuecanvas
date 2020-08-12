@@ -5,8 +5,14 @@
         <el-menu-item index="1">
           <router-link class="nav__link" to="/">Home</router-link>
         </el-menu-item>
-        <el-menu-item index="2">
-          <router-link class="nav__link" to="/about">About</router-link>
+        <el-menu-item index="3">
+          <router-link class="nav__link" to="/agb">Agb</router-link>
+        </el-menu-item>
+        <el-menu-item index="4">
+          <router-link class="nav__link" to="/agbundlb">Agb und Lb</router-link>
+        </el-menu-item>
+        <el-menu-item index="5">
+          <router-link class="nav__link" to="/150agbundlb">150 Agb und Lb</router-link>
         </el-menu-item>
       </el-menu>
     </el-header>

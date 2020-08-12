@@ -1,18 +1,24 @@
 <template>
   <el-container>
     <el-row>
-      <el-col span="24">
-        <div class="grid-content bg-purple-dark">
-          <el-form ref="form" v-model="form" label-width="120px">
-            <el-form-item label="Activity name">
-              <el-input v-model="form.name"></el-input>
-            </el-form-item>
-            <el-form-item>
-              <el-button type="primary" @click="onSubmit">Create</el-button>
-              <el-button>Cancel</el-button>
-            </el-form-item>
-          </el-form>
-        </div>
+      <el-col :span="24">
+        <el-form ref="form" v-model="form" label-width="120px" class="form__content">
+          <el-form-item label="Firma">
+            <el-input v-model="form.name"></el-input>
+          </el-form-item>
+          <el-form-item label="Inhaber">
+            <el-input v-model="form.name"></el-input>
+          </el-form-item>
+          <el-form-item label="Webseite">
+            <el-input v-model="form.name" placeholder="mit www."></el-input>
+          </el-form-item>
+          <el-form-item label="Straße">
+            <el-input v-model="form.name" placeholder="Straße, Hausnummer und Plz"></el-input>
+          </el-form-item>
+          <el-form-item label="Stadt">
+            <el-input v-model="form.name"></el-input>
+          </el-form-item>
+        </el-form>
       </el-col>
     </el-row>
   </el-container>
@@ -41,4 +47,9 @@ export default {
   }
 };
 </script>
+<style>
+.form__content {
+  padding-top: 50px;
+}
+</style>
 

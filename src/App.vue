@@ -2,7 +2,7 @@
   <div id="app">
     <AppNavigation/>
     <FormSection/>
-    <el-main class="main__content">
+    <el-main>
       <router-view></router-view>
     </el-main>
   </div>
