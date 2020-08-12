@@ -1,2 +1,7 @@
 # vuecanvas
-Created with CodeSandbox
+
+Vue with canvas
+
+# purpose
+
+Generate images from text areas
