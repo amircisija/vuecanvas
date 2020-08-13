@@ -14,7 +14,8 @@
     "vue-html2canvas": "0.0.4",
     "vue-markdown": "2.2.4",
     "vue-router": "3.4.3",
-    "vuex": "3.5.1"
+    "vuex": "3.5.1",
+    "vuex-persist": "2.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-eslint": "4.1.1",
@@ -48,6 +49,12 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "keywords": [],
-  "description": ""
+  "keywords": [
+    "vue",
+    "vuex",
+    "vuerouter",
+    "router",
+    "html2canvas"
+  ],
+  "description": null
 }

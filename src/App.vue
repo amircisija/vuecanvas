@@ -32,4 +32,7 @@ export default {
 .main__content {
   padding-top: 100px;
 }
+body {
+  margin: 0;
+}
 </style>
